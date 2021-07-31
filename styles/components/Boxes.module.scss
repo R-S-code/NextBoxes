@@ -1,5 +1,10 @@
 .boxes {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 4rem;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 }
