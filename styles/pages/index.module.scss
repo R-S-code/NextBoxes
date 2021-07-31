@@ -6,6 +6,14 @@
 .title {
   font-size: 2.8rem;
 }
+@media screen and ( max-width: 76.8rem )
+{
+	.title {
+    color: yellowgreen;
+  }
+}
+
 .aboutReact {
   margin-top: 8rem;
 }
+
